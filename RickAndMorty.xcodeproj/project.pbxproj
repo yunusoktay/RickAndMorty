@@ -36,6 +36,7 @@
 		80D0F4EC29C14B27003123A3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D0F4EB29C14B27003123A3 /* Extensions.swift */; };
 		80DF48DD29C33BE000F8F721 /* RMCharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF48DC29C33BE000F8F721 /* RMCharacterCollectionViewCell.swift */; };
 		80DF48DF29C33E1900F8F721 /* RMCharacterCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF48DE29C33E1900F8F721 /* RMCharacterCollectionViewCellViewModel.swift */; };
+		80F4BE1D29D9C29C00CADA78 /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4BE1C29D9C29C00CADA78 /* RMImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		80D0F4EB29C14B27003123A3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		80DF48DC29C33BE000F8F721 /* RMCharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 		80DF48DE29C33E1900F8F721 /* RMCharacterCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		80F4BE1C29D9C29C00CADA78 /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		80C54DFE29BE64EB00C3C2DD /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				80F4BE1C29D9C29C00CADA78 /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				80C54DEA29BE5E2600C3C2DD /* RMTabViewController.swift in Sources */,
 				80DF48DD29C33BE000F8F721 /* RMCharacterCollectionViewCell.swift in Sources */,
 				80C54E0E29BE692E00C3C2DD /* RMEpisodeViewController.swift in Sources */,
+				80F4BE1D29D9C29C00CADA78 /* RMImageLoader.swift in Sources */,
 				80C54DE629BE5E2600C3C2DD /* AppDelegate.swift in Sources */,
 				80C54DE829BE5E2600C3C2DD /* SceneDelegate.swift in Sources */,
 				80C54E1029BE694200C3C2DD /* RMSettingsViewController.swift in Sources */,
